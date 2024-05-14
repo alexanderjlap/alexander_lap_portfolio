@@ -1,0 +1,29 @@
+[
+    {
+      "role": "Camp Instructor",
+      "organization": "iD Tech",
+      "startDate": "June, 2024",
+      "endDate": "Present",
+      "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
+      "imageSrc": "history/google.png"
+    },
+    {
+      "role": "Information Systems Intern",
+      "organization": "Cooley Dickinson",
+      "startDate": "July, 2022",
+      "endDate": "Aug, 2022",
+      "experiences": ["Worked on Windows 11", "Designed the control panel"],
+      "imageSrc": "history/microsoft.png"
+    },
+    {
+      "role": "Cybersecurity Intern",
+      "organization": "City of Northampton",
+      "startDate": "April, 2022",
+      "endDate": "May, 2022",
+      "experiences": [
+        "Worked on component library",
+        "Helped create UI components"
+      ],
+      "imageSrc": "history/netflix.png"
+    }
+  ]

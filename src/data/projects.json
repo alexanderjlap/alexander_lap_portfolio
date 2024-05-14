@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Mass General Kiosk",
+      "imageSrc": "projects/project.png",
+      "description": "In a team of 11, we applied the agile scrum methodology to create a kiosk app to handle pathfinding and service requests. I led the frontend team as assistant lead software developer working with functionality, authentication, and UI.",
+      "skills": ["React.js", "Express", "Node.js", "PostgreSQL", "Typescript", "AWS", "Axios"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/alexanderjlap/CS3733-D24-Team-C-Production"
+    },
+    {
+      "title": "Pan Asian Festival App",
+      "imageSrc": "projects/project.png",
+      "description": "This is a project was made during a hackathon in a group of 5, where we decided to make an app that would help reduce the wait time for people getting food. I worked mainly on the backend getting the database to work on firebase while using flask, allowing consistent data management and processing.",
+      "skills": ["React.js", "Firebase", "Flask", "Figma"],
+      "demo": "https://www.youtube.com/watch?v=S-_BnyNtpEk",
+      "source": "https://github.com/alexanderjlap/goathacks24"
+    },
+    {
+      "title": "Project C",
+      "imageSrc": "projects/project.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+  ]
