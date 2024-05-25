@@ -9,10 +9,10 @@ export const Hero = () => {
                 Hi, I'm Alexander Lap
             </h1>
             <p className={styles.description}>
-                I am currently a junior studying at Worcester Polytechnic Institute persuing
-                a bachelors in Computer Science and a masters in Cybersecurity.
+                I am currently a junior studying at Worcester Polytechnic Institute pursuing
+                a bachelor's in Computer Science and a master's in Cybersecurity.
                 I am currently seeking an internship for next year in CS/InfoSec field.
-                Reach out if you`d like to learn more!
+                Reach out if you'd like to learn more!
             </p>
             <a href="mailto:alex.lap118@gmail.com" className={styles.contactBtn}>
                 Contact Me
