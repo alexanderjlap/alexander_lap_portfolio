@@ -1,5 +1,13 @@
 @import "vars.css";
 
+/* App Section */
+.App {
+    background-color: var(--color-bg);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
 /* About Section */
 .container {
     position: relative;
