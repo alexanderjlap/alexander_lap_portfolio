@@ -7,8 +7,8 @@
   <title>
     Alex Lap's Portfolio
   </title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="mediaqueries.css">
+<!--  <link rel="stylesheet" href="style.css">-->
+<!--  <link rel="stylesheet" href="mediaqueries.css">-->
 </head>
 <body>
 <nav id="desktop-nav">
@@ -31,142 +31,106 @@
       <span></span>
     </div>
     <div class="menu-links">
-      <li><a href="#about" onclick="toggleMenu()">About</a></li>
-      <li><a href="#education" onclick="toggleMenu()">Education</a></li>
-      <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-      <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+<!--      <li><a href="#about" onclick="toggleMenu()">About</a></li>-->
+<!--      <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>-->
+<!--      <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>-->
+<!--      <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>-->
     </div>
   </div>
 </nav>
 
 <section id="profile">
-  <div id="particles-js"></div>
-
   <div class="section__text">
-    <p class="section__text__p1">Hello, I'm</p>
-    <h1 class="title">Alexander Lap</h1>
-    <div class="animated-text">
-      <span></span>
-    </div>
+    <h1 class="title">Hi, I'm Alexander Lap</h1>
+    <p class="section__text__p1">
+      I am currently a junior studying at Worcester Polytechnic Institute pursuing
+      a bachelor's in Computer Science and a master's in Cybersecurity.
+      I am currently seeking an internship for next year in CS/InfoSec field.
+      Reach out if you'd like to learn more!
+    </p>
+    <a href="mailto:alex.lap118@gmail.com" class="btn btn-color-1">Contact Me</a>
+  </div>
+  <img src="src/assets/hero/heroImage.png" alt="Hero image of me" class="heroImg">
+  <div class="topBlur"></div>
+  <div class="bottomBlur"></div>
+</section>
 
-    <div class="btn-container">
-      <button class="btn btn-color-2" onclick="window.open('./assets/chris-lam-resume.pdf')">
-        Download CV
-      </button>
-      <button class="btn btn-color-1" onclick="location.href='#contact'">
-        Contact Me
-      </button>
-    </div>
-    <div id="socials-container">
-      <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://linkedin.com/in/chrislam365'">
-      <img src="./assets/github.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com/clam365'">
-    </div>
-  </div>
-</section>
 <section id="about" class="reveal">
-  <p class="section__text__p1">Get To Know More</p>
-  <h1 class="title">ABOUT ME</h1>
-  <div class="section-container reveal">
-    <div class="section__pic-container">
-      <img src="./assets/aboutpic.png" alt="Profile picture" class="about-pic">
-    </div>
-    <div class="about-details-container">
-      <div class="about-containers">
-        <div class="details-container">
-          <img src="./assets/education.png" alt="Education icon" class="about-icon">
-          <h3>Education | GPA: 3.7</h3>
-          <p class="about-p">B.S. Computer Science '26<br/>B.S. Data Science '26</p>
+  <h2 class="title">About</h2>
+  <div class="content">
+    <img src="src/assets/about/aboutImage.png" alt="Me sitting with a laptop" class="aboutImage">
+    <ul class="aboutItems">
+      <li class="aboutItem">
+        <img src="src/assets/about/cursorIcon.png" alt="Cursor icon">
+        <div class="aboutItemText">
+          <h3>Frontend Developer</h3>
+          <p>I'm a frontend developer with experience in building responsive and optimized sites</p>
         </div>
-        <div class="details-container">
-          <img src="./assets/experience.png" alt="Experience icon" class="about-icon">
-          <h3>Activities</h3>
-          <p class="about-p">UEI Head Videographer <br/>DEI Chair of SAE, SASE, VSA</p>
+      </li>
+      <li class="aboutItem">
+        <img src="src/assets/about/serverIcon.png" alt="Server icon">
+        <div class="aboutItemText">
+          <h3>Backend Developer</h3>
+          <p>I have experience developing fast and optimised back-end systems and APIs</p>
         </div>
-      </div>
-      <div class="text-container">
-        <p style="background-color: transparent;">
-          Hi, my name is Chris Lam!
-          I have a passion in artificial intelligence and computer vision, building personal projects in Python using its modules of OpenCV, MediaPipe, etc.
-          Thriving on facing challenges head on, it builds my adaptability and resilience in the process.
-          <br/>
-          I firmly believe in developing technology for the betterment of the world, whether it's global or my local community.
-          With my leadership, attitude, and coding skills towards project-based learning, I strive to collaborate with diverse individuals and teams to create positive change.
-        </p>
-      </div>
-    </div>
+      </li>
+      <li class="aboutItem">
+        <img src="src/assets/about/uiIcon.png" alt="UI icon">
+        <div class="aboutItemText">
+          <h3>UI Designer</h3>
+          <p>I have designed multiple landing pages and have created design systems as well</p>
+        </div>
+      </li>
+    </ul>
   </div>
-  <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#skills'">
 </section>
-<section id="skills" class="reveal">
-  <p class="section__text__p1">Explore My</p>
-  <h1 class="title">TECHNICAL SKILLS</h1>
-  <div class="skill-details-container">
-    <div class="about-containers">
-      <div class="details-containers">
-        <h2 class="skill-sub-title">Coding Languages</h2>
-        <div class="article-container">
-          <article>
-            <img src="./assets/checkmark.png" alt="Skill icon" class="icon">
-            <div>
-              <h3>PYTHON</h3>
-              <p class="experience-type">Experienced</p>
-            </div>
-          </article>
-          <article>
-            <img src="./assets/checkmark.png" alt="Skill icon" class="icon">
-            <div>
-              <h3>JAVA</h3>
-              <p class="experience-type">Experienced</p>
-            </div>
-          </article>
-          <article>
-            <img src="./assets/checkmark.png" alt="Skill icon" class="icon">
-            <div>
-              <h3>C/C++</h3>
-              <p class="experience-type">Intermediate</p>
-            </div>
-          </article>
-          <article>
-            <img src="./assets/checkmark.png" alt="Skill icon" class="icon">
-            <div>
-              <h3>HTML/CSS</h3>
-              <p class="experience-type">Intermediate</p>
-            </div>
-          </article>
-          <article>
-            <img src="./assets/checkmark.png" alt="Skill icon" class="icon">
-            <div>
-              <h3>JAVASCRIPT</h3>
-              <p class="experience-type">Basic</p>
-            </div>
-          </article>
-          <article>
-            <img src="./assets/checkmark.png" alt="Skill icon" class="icon">
-            <div>
-              <h3>RACKET</h3>
-              <p class="experience-type">Experienced</p>
-            </div>
-          </article>
-        </div>
-      </div>
-      <div class="details-containers">
-        <h2 class="skill-sub-title">Courses</h2>
-        <div class="article-container">
-          <ul class="course-list">
-            <li class="background: transparent;">Algorithms</li>
-            <li class="background: transparent;">Machine Org. and Assembly</li>
-            <li class="background: transparent;">Object Oriented Programming</li>
-            <li class="background: transparent;">Foundations of Computer Science</li>
-            <li class="background: transparent;">Systems Programming Concepts</li>
-            <li class="background: transparent;">Introduction to Program Design</li>
-            <li class="background: transparent;">Discrete Mathematics</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+
+<!-- Experience Section -->
+<section id="experience">
+  <h2>Experience</h2>
+  <!-- Display skills -->
+  <div id="skills">
+    <h3>Skills</h3>
+    <ul>
+      <!-- Dynamically generate list items for each skill -->
+      <script src="src/data/skills.json"></script>
+      <script>
+        // Iterate over skills data and generate list items
+        skills.forEach(function(skill) {
+          document.write(`<li><img src="${skill.imageSrc}" alt="${skill.title}">${skill.title}</li>`);
+        });
+      </script>
+    </ul>
   </div>
-  <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#projects'">
+  <!-- Display work history -->
+  <div id="work-history">
+    <h3>Work History</h3>
+    <ul>
+      <!-- Dynamically generate list items for each work history item -->
+      <script src="src/data/history.json"></script>
+      <script>
+        // Iterate over history data and generate list items
+        history.forEach(function(historyItem) {
+          document.write(`
+            <li>
+              <img src="${historyItem.imageSrc}" alt="${historyItem.organization} Logo">
+              <div>
+                <h4>${historyItem.role}, ${historyItem.organization}</h4>
+                <p>${historyItem.startDate} - ${historyItem.endDate}</p>
+                <ul>
+                  ${historyItem.experiences.map(function(experience) {
+            return `<li>${experience}</li>`;
+          }).join('')}
+                </ul>
+              </div>
+            </li>
+          `);
+        });
+      </script>
+    </ul>
+  </div>
 </section>
+
 <section id="projects" class="reveal">
   <p class="section__text__p1">Browse My Recent</p>
   <h1 class="title">Projects</h1>
@@ -174,7 +138,7 @@
     <div class="about-containers">
       <div class="details-containers color-container">
         <div class="article-container">
-          <img src="./assets/project_1.png" alt="project 1" class="project-img">
+          <img src="src/assets/projects/hospitalmap.jpeg" alt="project 1" class="project-img">
         </div>
         <h2 class="skills-sub-title project-title">YoloV5 Object Detection</h2>
         <div class="btn-container">
@@ -185,7 +149,7 @@
       </div>
       <div class="details-containers color-container">
         <div class="article-container">
-          <img src="./assets/project_2.png" alt="project 2" class="project-img">
+          <img src="src/assets/projects/panasianapp.png" alt="project 2" class="project-img">
         </div>
         <h2 class="skills-sub-title project-title">AI Shoulder Press Rep Counter</h2>
         <div class="btn-container">
@@ -196,7 +160,7 @@
       </div>
       <div class="details-containers color-container">
         <div class="article-container">
-          <img src="./assets/project_3.png" alt="project 3" class="project-img">
+          <img src="src/assets/projects/project.png" alt="project 3" class="project-img">
         </div>
         <h2 class="skills-sub-title project-title">Slack Reminder Bot</h2>
         <div class="btn-container">
@@ -207,36 +171,33 @@
       </div>
     </div>
   </div>
-  <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact'">
 </section>
-<section id="contact" class="reveal">
-  <p class="section__text__p1">Get in Touch</p>
-  <h1 class="title">Contact Me</h1>
-  <div class="contact-info-upper-container">
-    <div class="contact-info-container">
-      <img src="./assets/email.png" alt="email icon" class="icon contact-icon email-icon">
-      <p class="contact-text"><a href="mailto:christpherlam365@gmail.com" class="hello">christpherlam365@gmail.com</a></p>
+<footer id="contact" class="reveal">
+  <div class="container">
+    <div class="text">
+      <h2>Contact</h2>
+      <p>Feel free to reach out!</p>
     </div>
-    <div class="contact-info-container">
-      <img src="./assets/linkedin2.png" alt="LinkedIn icon" class="icon contact-icon">
-      <p class="contact-text"><a href="https://www.linkedin.com/in/chrislam365" class="hello">LinkedIn</a></p>
-    </div>
-  </div>
-</section>
-<footer class="reveal">
-  <nav>
-    <div class="nav-links-container">
-      <ul class="nav-links bottom-nav">
-        <li style="background: transparent;"><a href="#about">ABOUT</a></li>
-        <li style="background: transparent;"><a href="#skills">SKILLS</a></li>
-        <li style="background: transparent;"><a href="#projects">PROJECTS</a></li>
-        <li style="background: transparent;"><a href="#contact">CONTACT</a></li>
+    <div class="links">
+      <ul class="linkList">
+        <li class="link">
+          <img src="src/assets/contact/emailIcon.png" alt="Email icon">
+          <a href="mailto:alex.lap118@gmail.com">alex.lap118@gmail.com</a>
+        </li>
+        <li class="link">
+          <img src="src/assets/contact/linkedinIcon.png" alt="LinkedIn icon">
+          <a href="https://www.linkedin.com/in/alexanderlap/">linkedin.com/alexanderlap</a>
+        </li>
+        <li class="link">
+          <img src="src/assets/contact/githubIcon.png" alt="Github icon">
+          <a href="https://github.com/alexanderjlap">github.com/alexanderjlap</a>
+        </li>
       </ul>
     </div>
-  </nav>
-  <p class="ending">Copyright &#169 2023 Christopher Lam. All Rights Reserved.</p>
+    <hr style="border-top: 1px solid lightgrey;">
+    <p class="copyright">&copy; 2024 Alexander Lap. All Rights Reserved.</p>
+  </div>
 </footer>
-<script src="script.js"></script>
 </body>
 </html>
 
